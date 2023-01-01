@@ -1,3 +1,5 @@
+function() {
+
 const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
@@ -144,3 +146,4 @@ class Footer extends HTMLElement {
 }
 
 customElements.define('footer-component', Footer);
+}
